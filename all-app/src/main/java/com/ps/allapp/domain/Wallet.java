@@ -2,11 +2,13 @@ package com.ps.allapp.domain;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author VP
  */
 @Data
-public class Wallet {
+public class Wallet implements Serializable {
 
     /**
      * 钱包id
